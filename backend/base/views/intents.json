@@ -1,0 +1,30 @@
+{"intents": [
+  {"tag": "greeting",
+  "patterns": ["hello","hey","hi","greetings","sir"],
+  "responses": ["hello how can i help you","hey mate!, what can i do for you?"]
+  },
+  {"tag": "goodbye",
+  "patterns": ["cya","see you later","goodbye","I am Leaving","have a good day","bye","cao","see ya"],
+  "responses": ["Ta Ta","take care","goodbye","Vidāya","Alavidā","viṭa","sad to see you go"]
+  },
+  {"tag":"age",
+  "patterns":["how old","how old are you","what is your age","age?"],
+  "responses": ["My owner pankaj is 26 years","26 years"]
+  },
+  {"tag": "name",
+  "patterns":["what is your name","what should i call you","what is your name?","who are you","can you tell me your name"],
+  "responses": ["you can call me ifriend","I am ifriend","i'm ifriend the assistance of pankaj"]
+  },
+  {"tag": "shop",
+  "patterns": ["i'd like to buy something","what your products","what are category of product you sale?","what do you sale?","I want to shop"],
+  "responses":["we sell technical items","you can buy electronic products","we recommend electronics"]
+  },
+  {"tag": "hours",
+  "patterns": ["when are you guys open","what are your hours","hours of operation"],
+  "responses": ["24/7"]
+  },
+  {"tag": "return",
+  "patterns": ["i want to return the product","the product is damaged","i dont like my order","return my order","order is changed"],
+  "responses": ["sorry for inconvenience, we will replace it","product will be replaced","our guy will be picking product for replacement"]
+  }
+]}
